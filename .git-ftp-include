@@ -1,0 +1,6 @@
+vendor/:composer.lock
+!.env
+!config/
+!public/js/dist/
+!public/mix-manifest.json
+!public/fonts/vendor/

@@ -1,0 +1,31 @@
+version : '3.8'
+services:
+  intranet_fe_app:
+    image: bzprodev/php-node:v1.4.4.3.1
+    volumes:
+      - ./:/var/www
+      - .docker/php/config.ini:/usr/local/etc/php/conf.d/custom.ini
+    working_dir: /var/www
+    networks:
+      - intranet_fe
+    environment: 
+      - TZ=Asia/Jakarta
+    container_name: intranet_fe_app
+
+  intranet_fe_nginx:
+    image: nginx:latest
+    volumes:
+      - ./:/var/www
+      - .docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    working_dir: /var/www    
+    ports:
+      - 80:80
+    networks:
+      - intranet_fe
+    depends_on:
+      - intranet_fe_app
+    environment: 
+      - TZ=Asia/Jakarta
+    container_name: intranet_fe_nginx
+networks:
+  intranet_fe:

@@ -1,0 +1,16 @@
+{
+    "/js/app/dashboards/warehouse/orders/index.js": "/js/app/dashboards/warehouse/orders/index.js",
+    "/js/app/sap/purchase_order/index.js": "/js/app/sap/purchase_order/index.js",
+    "/js/app/sites/dashboards/index.js": "/js/app/sites/dashboards/index.js",
+    "/js/app/sites/report_kms/cancellation/index.js": "/js/app/sites/report_kms/cancellation/index.js",
+    "/js/app/sites/report_simphony/index.js": "/js/app/sites/report_simphony/index.js",
+    "/js/app/sites/sap/index.js": "/js/app/sites/sap/index.js",
+    "/js/app/sites/side_menu/index.js": "/js/app/sites/side_menu/index.js",
+    "/css/app/dashboards/warehouse/order.css": "/css/app/dashboards/warehouse/order.css",
+    "/css/app/custom_layout.css": "/css/app/custom_layout.css",
+    "/css/app/warehouse/order.css": "/css/app/warehouse/order.css",
+    "/css/app.css": "/css/app.css",
+    "/js/app/warehouse/orders/index.js": "/js/app/warehouse/orders/index.js",
+    "/js/vendor/sweetalert2.min.js": "/js/vendor/sweetalert2.min.js",
+    "/css/vendor/bootstrap.min.css": "/css/vendor/bootstrap.min.css"
+}

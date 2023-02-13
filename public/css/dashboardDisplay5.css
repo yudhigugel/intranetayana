@@ -1,0 +1,182 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0 0.5vw;
+    background-color:#ECEDF0;
+    color: #3d3d3d;
+    /*color: #dcedff;
+    font-family: 'Inconsolata', monospace;*/
+    font-size: 0.98vw;
+    overflow:hidden;
+    font-family: 'Lato';
+}
+
+.h1{
+    margin: 0;
+    padding:0;
+    font-size:2vw;
+    text-align: left;
+    color:#F5F5F5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.select2-container{
+    font-size: 1vw;
+    width:21vw !important;
+}
+
+.rowData{
+    float:right;
+    margin-top:-1vw;
+    margin-right:1.5vw;
+}
+
+.hidden{
+    display: none;
+}
+
+table th{
+    color:#FDFDFD;
+    vertical-align: top !important;
+    text-transform: uppercase;
+    height:4.8vw;
+}
+
+table td{
+    font-weight: bold;
+    color: #444;
+    padding: 0.3vw 0.5vw !important;
+    vertical-align: top;
+    text-transform: uppercase;
+    height:4.8vw;
+}
+
+#installation th{
+    background: #0088CC;
+}
+
+#troubleshoot th{
+    background: #ED9C28;
+}
+
+#termination th{
+    background: #D2322D;
+}
+
+#revenue th, #revenueSales th{
+    background: #47A447;
+    height:0vw;
+}
+
+#revenue td, #revenueSales td{
+    height:0vw;
+}
+
+#backbone th, #ftth th, #ftthRk th, #backup th{
+    background: #5BC0DE;
+}
+
+#logoBiznet{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    background:#FDFDFD;
+    color:#F5F5F5;
+    /*opacity:0.6;*/
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    box-sizing:border-box;
+}
+
+#header{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    background:#1d5cb0;
+    color:#F5F5F5;
+    margin-top:4vw;
+    /*opacity:0.6;*/
+    padding: 0.6vw 0.7vw 0.5vw 0.7vw;
+    box-sizing:border-box;
+}
+
+#footer{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background:#1d5cb0;
+    color:#F5F5F5;
+    /*opacity:0.6;*/
+    padding: 0.1vw;
+    height: 2.6vw;
+    box-sizing:border-box;
+    font-size: 1.3vw;
+}
+
+.clock{
+    font-size:3vw;
+    color:#000000;
+    margin-top:-0.5vw;
+    float: right;
+    /* font-weight: bold; */
+    margin-right:1.5vw;
+    text-transform: uppercase;
+}
+
+.progress-bar{
+    color:#000000;
+    background-color: #5bc0de;
+}
+
+.progress .progress-bar-primary {
+    background-color: #5bc0de;
+}
+
+.select2-container {
+    margin-top:0vw;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #1d5cb0 transparent transparent transparent;
+}
+
+.select2-container--default .select2-selection--single{
+    background-color: #5BC0DE;
+    border: 1px solid #5BC0DE;
+    color:#F5F5F5;
+}
+
+.select2-container--default .select2-selection--single{
+    border:0;
+}
+
+.select2-selection__rendered {
+    color: #444;
+    background: #5BC0DE;
+    line-height: 28px;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #F5F5F5;
+    background: #5BC0DE;
+    line-height: 28px;
+    border-radius: 4px;
+}
+
+#select2Branch
+{
+    bottom:1vw;
+}
+
+div.content{
+    margin-top:7.7vw;
+    /* margin-bottom:5.6vw; */
+    margin-bottom: 3.5vw;
+    background-color:#ECEDF0;     
+}

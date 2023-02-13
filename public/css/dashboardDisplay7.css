@@ -1,0 +1,147 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0 0.5vw;
+    background-color:#ECEDF0;
+    color: #3d3d3d;
+    /*color: #dcedff;
+    font-family: 'Inconsolata', monospace;*/
+    font-size: 0.98vw;
+    font-family: 'Lato';
+}
+
+h1{
+    margin:0;
+    padding:0;
+    font-size:2vw;
+    text-align: left;
+    color:#F5F5F5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.rowData{
+    float:right;
+    margin-top:-1vw;
+    margin-right:1.5vw;
+}
+
+.hidden{
+    display: none;
+}
+
+table th{
+    color:#FDFDFD;
+    font-weight: bold;
+    vertical-align: top !important;
+    text-transform: uppercase;
+    height:4.8vw;
+    /* font-size: 1vw; */
+}
+
+table td{
+    font-weight: bold;
+    color: #444;
+    padding: 0.3vw 0.5vw !important;
+    vertical-align: top;
+    text-transform: uppercase;
+    height:4.8vw;
+    /* font-size: 1vw; */
+}
+
+#installation th{
+    background: #0088CC;
+}
+
+#troubleshoot th{
+    background: #ED9C28;
+}
+
+#termination th{
+    background: #D2322D;
+}
+
+#revenue th, #revenueSales th{
+    background: #47A447;
+    height:0vw;
+}
+
+#revenue td, #revenueSales td{
+    height:0vw;
+}
+
+#backbone th, #ftth th, #ftthRk th, #backup th{
+    background: #5BC0DE;
+}
+
+#logoBiznet{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: auto;
+    background:#FDFDFD;
+    color:#F5F5F5;
+    /*opacity:0.6;*/
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    box-sizing:border-box;
+}
+
+#header{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    background:#1d5cb0;
+    color:#F5F5F5;
+    margin-top:4vw;
+    /*opacity:0.6;*/
+    padding: 0.6vw 0.7vw 0.42vw 0.7vw;
+    box-sizing:border-box;
+}
+
+#footer{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background:#1d5cb0;
+    color:#F5F5F5;
+    /*opacity:0.6;*/
+    /* padding: 0.1vw; */
+    height: 2.3vw;
+    box-sizing:border-box;
+    font-size: 1.3vw;
+}
+
+.progress-bar{
+    color:#000000;
+    background-color: #5bc0de;
+}
+
+.progress .progress-bar-primary {
+    background-color: #5bc0de;
+}
+
+.clock{
+    font-size:3vw;
+    color:#000000;
+    margin-top:-0.5vw;
+    float: right;
+    /* font-weight: bold; */
+    margin-right:1.5vw;
+    text-transform: uppercase;
+}
+
+.noscript{
+    color:#000000;
+    text-align: center;
+}
+
+div.content{
+    margin-top:7.7vw;
+    margin-bottom: 3.5vw;
+    background-color:#ECEDF0;
+}

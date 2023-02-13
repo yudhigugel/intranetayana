@@ -1,0 +1,11 @@
+.layout-orders .order-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.layout-orders .order-container .first {
+  height: 100vh;
+  background: red;
+}
+

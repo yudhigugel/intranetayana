@@ -1,0 +1,91 @@
+.title-container {
+    width: 100%;
+    background: $color-black;
+    height: $height-title;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    h3 {
+        color: $color-white;
+        font-weight: bold;
+    }
+    margin-bottom: 1vh;
+}
+.order-container {
+    min-height: $height-item;
+    display: flex;
+    align-items: center;
+
+    .order-item {
+        padding: 10px;
+        margin-right: 10px;
+        height: 87vh;
+        .order-item-container {
+            overflow: scroll;
+            height: 84vh;
+        }
+        &:last-child {
+            margin: 0;
+        }
+        h3,
+        h4 {
+            color: $color-white;
+            font-weight: bold;
+        }
+        h5 {
+            color: $color-white;
+            opacity: 0.8;
+        }
+        .badge {
+            font-size: 1.2em;
+        }
+        .timeout{
+            animation: timeout .8s .8s infinite linear alternate;
+        }
+        @keyframes timeout {
+            from{
+                color: #E53935;
+            }
+            to{
+                color: $color-white;
+            }
+        }
+
+        .order-card {
+            .card {
+                margin-bottom: 30px;
+                background-color: $color-black2;
+                &.btc {
+                    border-bottom: 8px solid $color-btc;
+                }
+                &.btb {
+                    border-bottom: 8px solid $color-btb;
+                }
+                .table-items{
+                    color: $color-white;
+                }
+            }
+        }
+    }
+    .first {
+        height: $height-item;
+        background: $color-black;
+        width: 33.33%;
+    }
+    .second {
+        height: $height-item;
+        background: $color-black;
+        width: 33.33%;
+    }
+    .three {
+        height: $height-item;
+        background: $color-black;
+        width: 33.33%;
+    }
+    .four {
+        height: $height-item;
+        background: $color-black;
+        width: 25%;
+    }
+}

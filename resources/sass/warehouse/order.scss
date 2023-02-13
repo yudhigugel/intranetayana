@@ -1,0 +1,32 @@
+@import "variables";
+
+.layout-container {
+    display: flex;
+    height: auto;
+    .container-item {
+        padding: 10px;
+    }
+    .left{
+        width: 15%;
+        height: 77vh;
+        background-color: #ffffff;
+        margin-right: 5px;
+        overflow: scroll;
+    }
+    .right {
+        width: 85%;
+        height: 77vh;
+        background-color: #ffffff;
+        margin-left: 5px;
+        overflow: scroll;
+    }
+}
+
+.my-modal-container {
+    padding: 1rem;
+    .my-modal-content {
+        height: 400px;
+        overflow: scroll;
+        margin-top: 1rem;
+    }
+}

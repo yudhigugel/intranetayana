@@ -1,0 +1,575 @@
+.select2-container .select2-search--inline .select2-search__field {
+    margin-bottom: 5px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover, 
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:focus {
+    background-color: #0000 !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    border-right: none !important;
+    position: relative !important;
+}
+
+.new-notif{
+    background:#fff68f;
+}
+.bt1{
+    border-top:#ececec 1px solid !important;
+}
+.preview-item-content.notif{
+    word-wrap: break-word;
+    line-height: 0 !important;
+    white-space: break-spaces;
+    width: 100%;
+    min-width: 300px;
+
+}
+
+.notif-container{
+    position: relative;
+    max-height: 300px;
+    overflow-y: scroll;
+    max-width: 400px;
+}
+
+#popup-detail .form-check .form-check-label input[type="checkbox"]:disabled:checked + .input-helper:after {
+     background:inherit !important;
+     color:#fff !important;
+}
+
+
+.comment-container{
+    display:block;float:left;border-bottom: #f5f5f5 1px solid;
+}
+
+.comment-user{
+    display: table;margin:0 auto;
+}
+
+.comment-user img{
+    max-width:100%;max-height:75px;margin:0 auto;display:block;
+}
+
+.comment-text{
+
+}
+
+
+
+body.modal-open {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#dynamic-table thead tr th {
+    text-align: center !important;
+}
+
+
+.form-group {
+/*    margin: 0px 0px 2px 0px;*/
+    margin-bottom: 1.5rem;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    font-size: .8rem;
+}
+
+span.select2-selection.select2-selection--multiple {
+    padding: 0.4rem 1.375rem;
+}
+
+span.select2-selection--multiple .select2-search__field{
+    /*font-size: 120% !important;*/
+    font-size: 100% !important;
+}
+
+.form-control {
+    padding: 0.675rem 1.375rem;
+    font-size: 0.75rem;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    padding: 15px 15px;
+}
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -20px -20px;
+}
+
+.vs__clear {
+    display: none;
+}
+
+table,
+#table {
+    color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+table>tfoot>tr>th {
+    font-size: 14px;
+}
+
+table>thead>tr>th {
+    background-color: white;
+}
+
+.dataTables_wrapper .dataTables_processing {
+    position: fixed;
+    top: 5% !important;
+    left: 55%;
+    width: 30%;
+    height: 55px;
+    margin-left: -15%;
+    margin-top: 5%;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 1.2em;
+    background: none;
+    z-index: 100;
+    background: url('/image/loader.gif');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0 !important;
+}
+
+.loading {
+    position: fixed;
+    top: 30%;
+    left: 60%;
+    width: 10%;
+    height: 20px;
+    margin-left: -15%;
+    margin-top: 5%;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 1.2em;
+    background: none;
+    z-index: 100;
+}
+
+select.form-control {
+    padding: 0.630rem 1.375rem;
+}
+
+.v-application ol,
+.v-application ul {
+    /* padding-left: 0px !important; */
+}
+
+.nav-tabs {
+    padding-left: 0px !important;
+}
+
+.modal-dialog {
+    width: 80%;
+}
+
+.datepicker.datepicker-dropdown,
+.datepicker.datepicker-inline {
+    /* width: 5%; */
+    cursor: pointer;
+}
+
+div.loading {
+    z-index: 10000 !important;
+    /* margin-left: -75px; */
+}
+
+div.bar-loader>span {
+    background-color: #464dee !important;
+    margin-right: 3%;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #e9e9e9;
+}
+
+.label-search {
+    color: transparent;
+}
+
+.btn-search {
+    display: table !important;
+}
+
+.btn-default {
+    display: inline !important;
+}
+
+small.required {
+    font-style: italic;
+}
+
+.custom-select {
+    background: none !important;
+}
+
+hr {
+    margin-top: 2rem;
+}
+
+.form-group label {
+    line-height: 1rem;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    height: 28px;
+}
+
+.accordion {
+    background-color: snow;
+    margin-top: 10px;
+}
+
+.tbmanpower tbody>tr>td {
+    color: black;
+}
+
+.tbmanpower tfoot>tr>th {
+    font-size: 12px;
+    text-align: center;
+}
+
+#headingOne {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-header {
+    background-color: snow;
+}
+
+.form-group.row {
+    margin-bottom: 2%;
+}
+
+.tab-content {
+    padding: 1rem 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.input-group-text {
+    padding: .7875rem .775rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.popover {
+    z-index: 10000;
+}
+
+.popover .popover-body {
+    color: black;
+}
+
+
+#searchbar {
+  display: block;
+}
+
+
+/* custom settings */
+.token-input-token-facebook p { font-size: 1.0em; color: #555; }
+.token-input-selected-token-facebook p { color: #fff; }
+
+
+/** tokeninputs **/
+/* Example tokeninput style #1: Token vertical list*/
+ul.token-input-list {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    width: 400px;
+    border: 1px solid #999;
+    cursor: text;
+    font-size: 12px;
+    font-family: Verdana;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    list-style-type: none;
+    clear: left;
+}
+
+ul.token-input-list li {
+    list-style-type: none;
+}
+
+ul.token-input-list li input {
+    border: 0;
+    width: 350px;
+    padding: 3px 8px;
+    background-color: white;
+    -webkit-appearance: caret;
+}
+
+li.token-input-token {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    margin: 3px;
+    padding: 3px 5px;
+    background-color: #d0efa0;
+    color: #000;
+    font-weight: bold;
+    cursor: default;
+    display: block;
+}
+
+li.token-input-token p {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+li.token-input-token span {
+    float: right;
+    color: #777;
+    cursor: pointer;
+}
+
+li.token-input-selected-token {
+    background-color: #08844e;
+    color: #fff;
+}
+
+li.token-input-selected-token span {
+    color: #bbb;
+}
+
+div.token-input-dropdown {
+    position: absolute;
+    width: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+    font-size: 12px;
+    font-family: Verdana;
+    z-index: 1;
+}
+
+div.token-input-dropdown p {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #777;
+}
+
+div.token-input-dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.token-input-dropdown ul li {
+    background-color: #fff;
+    padding: 3px;
+    list-style-type: none;
+}
+
+div.token-input-dropdown ul li.token-input-dropdown-item {
+    background-color: #fafafa;
+}
+
+div.token-input-dropdown ul li.token-input-dropdown-item2 {
+    background-color: #fff;
+}
+
+div.token-input-dropdown ul li em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.token-input-dropdown ul li.token-input-selected-dropdown-item {
+    background-color: #d0efa0;
+}
+
+
+
+
+/** tokeninputs facebook **/
+/* Example tokeninput style #2: Facebook style */
+ul.token-input-list-facebook {
+    overflow: hidden;
+    height: auto !important;
+    height: 1%;
+    width: 100%;
+    border: 1px solid #8496ba;
+    cursor: text;
+    font-size: 12px;
+    font-family: Verdana;
+    min-height: 1px;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    list-style-type: none;
+    clear: left;
+}
+
+ul.token-input-list-facebook li input {
+    border: 0;
+    width: 100px;
+    padding: 3px 8px;
+    background-color: white;
+    margin: 2px 0;
+    -webkit-appearance: caret;
+}
+
+li.token-input-token-facebook {
+    overflow: hidden;
+    height: auto !important;
+    height: 15px;
+    margin: 3px;
+    padding: 1px 3px;
+    background-color: #eff2f7;
+    color: #000;
+    cursor: default;
+    border: 1px solid #ccd5e4;
+    font-size: 11px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+    white-space: nowrap;
+}
+
+li.token-input-token-facebook p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+li.token-input-token-facebook span {
+    color: #a6b3cf;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li.token-input-selected-token-facebook {
+    background-color: #5670a6;
+    border: 1px solid #3b5998;
+    color: #fff;
+}
+
+li.token-input-input-token-facebook {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.token-input-dropdown-facebook {
+    position: absolute;
+    width: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+    font-size: 11px;
+    font-family: Verdana;
+    z-index: 1;
+}
+
+div.token-input-dropdown-facebook p {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #777;
+}
+
+div.token-input-dropdown-facebook ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.token-input-dropdown-facebook ul li {
+    background-color: #fff;
+    padding: 3px;
+    margin: 0;
+    list-style-type: none;
+}
+
+div.token-input-dropdown-facebook ul li.token-input-dropdown-item-facebook {
+    background-color: #fff;
+}
+
+div.token-input-dropdown-facebook ul li.token-input-dropdown-item2-facebook {
+    background-color: #fff;
+}
+
+div.token-input-dropdown-facebook ul li em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.token-input-dropdown-facebook ul li.token-input-selected-dropdown-item-facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.table th, .jsgrid .jsgrid-table th, .table td, .jsgrid .jsgrid-table td {
+    line-height: 1.5 !important;
+    vertical-align: middle !important;
+}
+.bg-red{
+    background:#E74C3C !important;
+}
+
+.bg-black{
+    background:#363636 !important;
+}
+
+.bg-green{
+    background:#00e640 !important;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: right;
+  text-align: right;
+}
+
+.dataTables_wrapper .dataTables_length{
+  float: left;
+}
+
+div.dtsb-searchBuilder div.dtsb-group{
+  margin-left: 0 !important;
+}
+
+div.dtsb-searchBuilder div.dtsb-group .dtsb-logicContainer{
+  display: none !important;
+}
+
+
+@media only screen and (max-width:450px) {
+    .preview-item-content.notif{
+
+        min-width: unset;
+
+    }
+
+}
